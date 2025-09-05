@@ -21,9 +21,9 @@ const staggerChildren = {
 
 export default function About() {
   const stats = [
-    { number: '5000+', label: 'Restaurants Served', icon: <FiUsers className="w-6 h-6" /> },
+    { number: 'Built for', label: 'F&B businesses across Gulf', icon: <FiUsers className="w-6 h-6" /> },
     { number: '24/7', label: 'Platform Uptime', icon: <HiOutlineChip className="w-6 h-6" /> },
-    { number: '1M+', label: 'Orders Processed', icon: <FiTarget className="w-6 h-6" /> },
+    { number: 'Unlimited', label: 'orders – no hidden fee', icon: <FiTarget className="w-6 h-6" /> },
     { number: '0%', label: 'Commission Fee', icon: <FiTrendingUp className="w-6 h-6" /> }
   ];
 
@@ -138,7 +138,7 @@ export default function About() {
               Our Story
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Founded in 2020, AIFIER emerged from a simple yet powerful idea: make advanced restaurant technology accessible to businesses of all sizes. What started as a small team of passionate restaurateurs and technologists has grown into a leading force in restaurant management solutions.
+              AiFier was created with a clear vision: to make advanced restaurant technology simple, accessible, and commission-free. Built for the F&B industry across the Gulf, our platform helps restaurants and cafés run smarter, streamline operations, and focus on creating exceptional dining experiences. What began as a bold idea has grown into a mission to empower food businesses with the digital tools they need to thrive in a fast-changing market.
             </p>
           </motion.div>
         </div>
@@ -207,28 +207,25 @@ export default function About() {
                   transition={{ type: "spring", stiffness: 300 }}
                   className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg"
                 >
-                  AT
+                  RD
                 </motion.div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900">Michael Chen</h3>
-                  <p className="text-blue-600 font-medium">Founder & CEO, AIFIER</p>
+                  <h3 className="text-2xl font-bold text-gray-900">Ruba Dawood Al Futaisi</h3>
+                  <p className="text-blue-600 font-medium">Founder of AiFier</p>
                 </div>
               </div>
               
               <div className="space-y-6 text-gray-600">
                 <p className="text-lg leading-relaxed">
-                  "Having worked in the restaurant industry for years, I witnessed firsthand the challenges of managing operations and the burden of high commission fees from delivery platforms. That's why we created AIFIER – to provide restaurants with powerful digital tools without the excessive costs."
+                  "Restaurants are the heartbeat of our communities. I created AiFier to give F&B businesses across the Gulf the tools they need to run smarter, grow faster, and keep 100% of their hard-earned revenue. Our mission is simple: zero commission, seamless technology, and complete support for restaurants and cafés of every size. With AiFier, we want to make digital operations effortless so you can focus on what matters most: serving your customers."
                 </p>
-                <p className="text-lg leading-relaxed">
-                  "Our commitment to zero commission and our 10-day free trial reflect our belief that technology should empower restaurants, not burden them with fees. We're proud to help thousands of restaurants streamline their operations and increase their revenue."
-                </p>
-                <div className="flex items-center justify-center gap-4">
+                <div className="flex items-center justify-center gap-4 mt-8">
                   <div className="w-16 h-16 rounded-full overflow-hidden">
                     <Image src="/founder.jpg" alt="Founder" width={64} height={64} className="w-full h-full object-cover" />
                   </div>
                   <div className="text-left">
-                    <div className="font-bold text-gray-900">Michael Chen</div>
-                    <div className="text-sm text-gray-600">Founder & CEO, AIFIER</div>
+                    <div className="font-bold text-gray-900">— Ruba Dawood Al Futaisi</div>
+                    <div className="text-sm text-gray-600">Founder of AiFier</div>
                   </div>
                 </div>
               </div>
