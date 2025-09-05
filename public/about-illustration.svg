@@ -1,0 +1,24 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="#EBF5FF"/>
+  
+  <!-- Students Group -->
+  <g transform="translate(100,100)">
+    <!-- Student 1 -->
+    <circle cx="100" cy="100" r="40" fill="#3B82F6"/>
+    <circle cx="100" cy="70" r="25" fill="#3B82F6"/>
+    
+    <!-- Student 2 -->
+    <circle cx="180" cy="120" r="40" fill="#2563EB"/>
+    <circle cx="180" cy="90" r="25" fill="#2563EB"/>
+    
+    <!-- Student 3 -->
+    <circle cx="260" cy="140" r="40" fill="#1D4ED8"/>
+    <circle cx="260" cy="110" r="25" fill="#1D4ED8"/>
+    
+    <!-- Book/Learning Symbols -->
+    <rect x="80" y="200" width="200" height="30" rx="15" fill="#3B82F6"/>
+    <rect x="120" y="250" width="160" height="30" rx="15" fill="#2563EB"/>
+    <rect x="160" y="300" width="120" height="30" rx="15" fill="#1D4ED8"/>
+  </g>
+</svg> 
